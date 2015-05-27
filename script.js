@@ -75,11 +75,13 @@ function setup() {
 
   hBarSlider = createSlider(5, 20, 14);
   hBarSlider.parent("sliderPos2");
-  hBarSlider.size(240);
+  // hBarSlider.size(240);
+  hBarSlider.style("width", "100px");
 
   spacingSlider = createSlider(1, 20, 8);
   spacingSlider.parent("sliderPos3");
-  spacingSlider.size(240);
+  // spacingSlider.size(240);
+  spacingSlider.style("width", "130px");
 }
 
 function draw() {
